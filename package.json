@@ -1,0 +1,22 @@
+{
+    "name": "bot-whatsapp-base-bailey-json",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "pre-copy": "cd .. && yarn run copy.lib base-baileys-json",
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "dependencies": {
+        "@bot-whatsapp/bot": "dev",
+        "@bot-whatsapp/cli": "dev",
+        "@bot-whatsapp/database": "dev",
+        "@bot-whatsapp/provider": "dev",
+        "@adiwajshing/baileys": "4.4.0",
+        "mime-types": "2.1.35",
+        "wa-sticker-formatter": "4.3.2"
+    },
+    "author": "",
+    "license": "ISC"
+}
