@@ -1,6 +1,6 @@
 FROM node:lts-bullseye as bot
 COPY package*.json ./
-RUN npm ci
+RUN npm i
 COPY . .
-EXPOSE 5000
+ARG PORT
 CMD ["npm", "start"]
