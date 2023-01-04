@@ -4,7 +4,7 @@ const {
     createFlow,
     addKeyword,
 } = require('@bot-whatsapp/bot')
-
+require('./server.http')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const JsonFileAdapter = require('@bot-whatsapp/database/json')
 
@@ -83,6 +83,8 @@ const main = async () => {
         provider: adapterProvider,
         database: adapterDB,
     })
+
+    adapterProvider.on('ready', () => console.log('Ready!'))
 }
 
 main()
