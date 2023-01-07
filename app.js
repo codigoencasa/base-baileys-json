@@ -5,7 +5,7 @@ const {
   createFlow,
   addKeyword,
 } = require('@bot-whatsapp/bot')
-const axios = require('axios');
+require('./server.http')
 const WsProvider = require('@bot-whatsapp/provider/baileys')
 const DBProvider = require('@bot-whatsapp/database/mock')
 
