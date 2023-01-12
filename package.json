@@ -10,10 +10,11 @@
     "keywords": [],
     "dependencies": {
         "@adiwajshing/baileys": "4.4.0",
-        "@bot-whatsapp/bot": "^0.0.45-alpha.0",
-        "@bot-whatsapp/cli": "^0.0.52-alpha.0",
-        "@bot-whatsapp/database": "^0.0.44-alpha.0",
-        "@bot-whatsapp/provider": "^0.0.50-alpha.0",
+        "@bot-whatsapp/bot": "^0.0.50-alpha.0",
+        "@bot-whatsapp/cli": "^0.0.57-alpha.0",
+        "@bot-whatsapp/database": "^0.0.49-alpha.0",
+        "@bot-whatsapp/portal": "^0.0.7-alpha.0",
+        "@bot-whatsapp/provider": "^0.0.55-alpha.0",
         "mime-types": "2.1.35",
         "wa-sticker-formatter": "4.3.2"
     },
